@@ -614,7 +614,7 @@ h2,h3,p{
         align-items: center;
         justify-content: center;
 }
-.joinus_social_list .links-icon {
+.joinus_social_list .links-icon-f {
    fill: var(--whitecolor);
 }
 .joinus-item:hover {
