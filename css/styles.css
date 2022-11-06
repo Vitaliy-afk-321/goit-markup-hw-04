@@ -614,5 +614,5 @@ h2,h3,p{
         display: flex;
         align-items: center;
         justify-content: center;
-        color: var(--whitecolor);
+        fill: var(--iconcolor);
 }
