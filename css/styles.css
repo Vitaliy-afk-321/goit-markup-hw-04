@@ -616,3 +616,6 @@ h2,h3,p{
         justify-content: center;
         fill: var(--iconcolor);
 }
+.joinus-item:hover {
+    fill: var(--bluecolor)
+}
