@@ -181,6 +181,8 @@ body {
 .active-link {
     color: var(--bluecolor);
 }
+
+
 /* Buttons */
 
 .progect_list_b{
@@ -467,6 +469,21 @@ h2,h3,p{
     border-radius: 50%;
     outline: solid 1px black;
 }
+
+.social-item:hover,
+.social-item:focus,
+.active-link {
+   background-color: var(--bluecolor);
+}
+.ourteam_item .links-icon {
+    fill: var(--iconcolor);
+}
+.links-icon:hover,
+.links-icon:focus,
+.active-link {
+    fill: var(--whitecolor);
+}
+
 .ourteam_item .social-icons {
     display: flex;
     justify-content: center;
@@ -516,3 +533,43 @@ h2,h3,p{
     background-color: var(--buttoncolor);
 }
 
+
+
+  /* New section */
+  .perm_text {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.03em;
+        margin-bottom: 50px;
+  }
+  .perm_list {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+  }
+  .perm_icons {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+  }
+  .perm_icons .perm_icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    padding: 0;
+  }
+ .perm_list .perm_icon {
+    fill: var(--iconcolor);
+ }
+
+ .permanent_icon:hover,
+ .permanent-icon:focus,
+ .perm_icons:hover,
+ .perm_icons:focus,
+ .active-link {
+     fill: var(--bluecolor);
+ }
+ 
