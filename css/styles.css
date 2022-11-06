@@ -472,8 +472,7 @@ h2,h3,p{
 }
 
 .social-item:hover,
-.social-item:focus,
-.active-link {
+.social-item:focus {
    background-color: var(--bluecolor);
 }
 .ourteam_item .links-icon {
@@ -614,8 +613,10 @@ h2,h3,p{
         display: flex;
         align-items: center;
         justify-content: center;
-        fill: var(--iconcolor);
+}
+.joinus-item {
+fill: var(--iconcolor);
 }
 .joinus-item:hover {
-    fill: var(--bluecolor)
+    background-color: var(--bluecolor);
 }
