@@ -562,12 +562,10 @@ h2,h3,p{
  .perm_list .perm_icon {
     fill: var(--iconcolor);
  }
-
- .permanent_icon:hover {
-    fill: var(--bluecolor);
- }
- 
 .perm_icons:hover .permanent_icon {
-    border-color: var(--bluecolor);
     fill: var(--bluecolor);
 }
+.perm_icons:hover .permanent_icon {
+    border-color: var(--bluecolor) ;
+}
+
