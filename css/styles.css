@@ -566,10 +566,10 @@ h2,h3,p{
  }
 
  .permanent_icon:hover,
- .permanent-icon:focus,
- .perm_icons:hover,
- .perm_icons:focus,
- .active-link {
-     fill: var(--bluecolor);
+ .permanent-icon:focus {
+    fill: var(--bluecolor);
  }
  
+.perm_icons:hover {
+    border-color: var(--bluecolor);
+}
