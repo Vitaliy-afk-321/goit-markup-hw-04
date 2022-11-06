@@ -563,13 +563,11 @@ h2,h3,p{
     fill: var(--iconcolor);
  }
 
- .permanent_icon:hover,
- .permanent-icon:focus {
+ .permanent_icon:hover {
     fill: var(--bluecolor);
  }
  
-.perm_icons:hover,
-.perm_icons:focus {
+.perm_icons:hover .permanent_icon {
     border-color: var(--bluecolor);
-    color: var(--bluecolor);
+    fill: var(--bluecolor);
 }
