@@ -479,8 +479,7 @@ h2,h3,p{
     fill: var(--iconcolor);
 }
 .links-icon:hover,
-.links-icon:focus,
-.active-link {
+.links-icon:focus {
     fill: var(--whitecolor);
 }
 
@@ -570,6 +569,8 @@ h2,h3,p{
     fill: var(--bluecolor);
  }
  
-.perm_icons:hover {
+.perm_icons:hover,
+.perm_icons:focus {
     border-color: var(--bluecolor);
+    color: var(--bluecolor);
 }
