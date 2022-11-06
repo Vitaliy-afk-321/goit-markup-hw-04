@@ -138,8 +138,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     padding: 32px 0;
+    display: flex;
+    justify-content: center;
 }
-
 .header_nav_l_tel{
     color: var(--graycolor);
     font-weight: 500;
@@ -147,14 +148,24 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     padding: 32px 0;
+    display: flex;
+    justify-content: center;
 }
 .header_icon_mail,
 .header_icon_tel {
     margin-right: 10px;
     fill: var(--iconcolor);
-    display: flex;
-    justify-content: center;
 }
+
+.header_nav_l_a:hover .header_icon_mail {
+fill: var(--bluecolor);
+}
+
+.header_nav_l_a:hover .header_icon_tel {
+    fill: var(--bluecolor);
+}
+
+
 
 .header_nav_l_link:hover,
 .header_nav_l_link:focus,
