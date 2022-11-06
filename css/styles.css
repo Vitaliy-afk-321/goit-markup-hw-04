@@ -565,7 +565,7 @@ h2,h3,p{
 .perm_icons:hover .permanent_icon {
     fill: var(--bluecolor);
 }
-.perm_icons:hover .permanent_icon {
+.perm_icons:hover {
     border-color: var(--bluecolor) ;
 }
 
