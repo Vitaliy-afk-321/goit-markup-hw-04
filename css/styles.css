@@ -374,35 +374,17 @@ h1 {
 .benefits .benefits_item:not(:last-child){
     margin-right: 30px;
 }
-.benefits_item::before {
-    display: inline-block;
-    content: "";
-    width: 270px;
-    height: 120px;
-    background: #F5F4FA;
-    border-radius: 4px;
-    margin-bottom: 30px;
-}
-.list1::before {
-background-image: url(../img/antenna.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.list2::before {
-    background-image: url(../img/clock.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.list3::before {
-    background-image: url(../img/diagram.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.list4::before {
-    background-image: url(../img/astronaut.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
+.benefits_item .icon-bcg {
+     width: 270px;
+     height: 120px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: #F5F4FA;
+     border-radius: 4px;
+     margin-bottom: 30px;
+ }
+
 h2,h3,p{
     margin-top: 0;
     margin-bottom: 0;
@@ -598,7 +580,6 @@ h2,h3,p{
     justify-content: center;
 }
 .joinus-item {
-
     width: 44px;
     height: 44px;
     margin-right: 10px;
